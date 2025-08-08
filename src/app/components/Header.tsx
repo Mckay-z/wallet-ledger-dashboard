@@ -65,7 +65,7 @@ const Header: React.FC<HeaderProps> = ({
             />
           </button>
           {isProfileMenuOpen && (
-            <div className="absolute right-0 mt-2 w-40 bg-white shadow-lg border rounded-lg py-2 z-50">
+            <div className="absolute right-0 mt-2 w-40 text-gray-600 bg-white shadow-lg border rounded-lg py-2 z-50">
               <button className="block w-full px-4 py-2 text-left hover:bg-gray-100">
                 Profile
               </button>
